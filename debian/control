@@ -1,0 +1,11 @@
+Source: aiohttp-swagger
+Maintainer: Daniel Garcia <cr0hn@cr0hn.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, git
+Standards-Version: 3.9.7
+
+Package: python3-aiohttp-swagger
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-jinja2, python3-yaml, python3-aiohttp
+Description: Swagger API Documentation builder for aiohttp server.
