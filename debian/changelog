@@ -1,5 +1,5 @@
-aiohttp-swagger (1.0.5-1) stretch; urgency=medium
+aiohttp-swagger (1.0.5-1) stable; urgency=medium
 
   * debianized
 
- -- André Roth <neolynx@gmail.com>  Thu, 08 Feb 2018 17:44:37 +0100
+ -- André Roth <neolynx@gmail.com>  Sun, 14 Jul 2019 17:09:24 +0200
