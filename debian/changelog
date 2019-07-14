@@ -1,3 +1,9 @@
+aiohttp-swagger (1.0.5-2) stretch; urgency=medium
+
+  * fix swagger stati files missing
+
+ -- André Roth <neolynx@gmail.com>  Sun, 14 Jul 2019 20:21:01 +0200
+
 aiohttp-swagger (1.0.5-1) stretch; urgency=medium
 
   * debianized
