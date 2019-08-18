@@ -27,7 +27,7 @@ def _extract_swagger_docs(end_point_doc, method="get"):
     # Build JSON YAML Obj
     try:
         end_point_swagger_doc = (
-            yaml.load("\n".join(end_point_doc[end_point_swagger_start:]), Loader=yaml.FullLoader)
+            yaml.load("\n".join(end_point_doc[end_point_swagger_start:]))
         )
     except yaml.YAMLError:
         end_point_swagger_doc = {
@@ -104,7 +104,7 @@ def generate_doc_from_each_end_point(
         )
 
     # The Swagger OBJ
-    swagger = yaml.load(swagger_base, Loader=yaml.FullLoader)
+    swagger = yaml.load(swagger_base)
     swagger["paths"] = defaultdict(dict)
 
     for route in app.router.routes():
@@ -117,7 +117,7 @@ def generate_doc_from_each_end_point(
                 with open(route.handler.swagger_file, "r") as f:
                     end_point_doc = {
                         route.method.lower():
-                            yaml.load(f.read(), Loader=yaml.FullLoader)
+                            yaml.load(f.read())
                     }
             except yaml.YAMLError:
                 end_point_doc = {
