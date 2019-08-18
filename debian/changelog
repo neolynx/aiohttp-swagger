@@ -1,3 +1,9 @@
+aiohttp-swagger (1.0.5-4.buster) stretch; urgency=medium
+
+  * build for buster
+
+ -- André Roth <neolynx@gmail.com>  Sun, 18 Aug 2019 10:27:27 +0200
+
 aiohttp-swagger (1.0.5-4) stretch; urgency=medium
 
   * bump version 1.0.5-4
