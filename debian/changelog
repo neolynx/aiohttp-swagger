@@ -1,3 +1,9 @@
+aiohttp-swagger (1.0.8-1) stretch; urgency=medium
+
+  * build for stretch and buster
+
+ -- André Roth <neolynx@gmail.com>  Sun, 08 Sep 2019 22:35:11 +0200
+
 aiohttp-swagger (1.0.5-1) stretch; urgency=medium
 
   * debianized
