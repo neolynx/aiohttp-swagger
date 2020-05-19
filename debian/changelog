@@ -1,3 +1,9 @@
+aiohttp-swagger (1.0.8-2) stretch; urgency=medium
+
+  * build for molior 1.4.0
+
+ -- André Roth <neolynx@gmail.com>  Tue, 19 May 2020 17:31:56 +0200
+
 aiohttp-swagger (1.0.8-1) stretch; urgency=medium
 
   * build for stretch and buster
